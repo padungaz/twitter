@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: rgb(29, 155, 240);
+    --border-color: #eff3f4;
+    --like-color: #f91880;
+}
+
+form {
+    background-color: #fff;
+}
+
+.error {
+    font-size: 1.6rem;
+    color: red;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+textarea {
+    text-overflow: ellipsis;
+}
+
+textarea::placeholder {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
